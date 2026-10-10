@@ -1,0 +1,45 @@
+name: Google News alerts
+on:
+  schedule:
+    - cron: '17 7 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: google-news-alerts
+  cancel-in-progress: false
+jobs:
+  alerts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - name: Generate digest and deliver new articles
+        env:
+          APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
+          NEWS_WEBHOOK: ${{ secrets.NEWS_WEBHOOK }}
+        run: python alerts.py --webhook-kind slack
+      - name: Preserve dedupe and pending deliveries even after failure
+        if: always()
+        run: |
+          if [ -f state/seen.json ]; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git add state/seen.json
+            if [ -f digest.md ]; then git add digest.md; fi
+            if ! git diff --cached --quiet; then
+              git commit -m "Update news digest and delivery state"
+              git push
+            fi
+          fi
+      - name: Upload digest
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: news-digest
+          path: digest.md
+          if-no-files-found: ignore

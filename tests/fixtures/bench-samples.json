@@ -1,0 +1,48 @@
+{
+  "source": "Board RESULT.json, google-news-scraper",
+  "benched_at": "2026-10-10T05:24:02Z",
+  "build": "0.1.11",
+  "rows": [
+    {
+      "query": "Reuters/Ipsos poll AI risks",
+      "topic": null,
+      "allQueries": [
+        "Reuters/Ipsos poll AI risks"
+      ],
+      "title": "Most US voters say Trump, Congress don't take AI risks seriously, Reuters/Ipsos poll finds",
+      "publisher": "Reuters",
+      "publisherUrl": "https://www.reuters.com",
+      "publisherDomain": "reuters.com",
+      "url": "https://www.reuters.com/world/most-us-voters-say-trump-congress-dont-take-ai-risks-seriously-reutersipsos-poll-2026-10-07/",
+      "urlResolved": true,
+      "publishedAt": "2026-10-07T22:40:51Z",
+      "snippet": null,
+      "imageUrl": null,
+      "sourceFeeds": [
+        "google"
+      ],
+      "edition": "US:en"
+    },
+    {
+      "query": "Lufthansa A340-600",
+      "topic": null,
+      "allQueries": [
+        "Lufthansa A340-600"
+      ],
+      "title": "Lufthansa verabschiedet den Airbus A340-600",
+      "publisher": "airliners.de",
+      "publisherUrl": "https://www.airliners.de",
+      "publisherDomain": "airliners.de",
+      "url": "https://www.airliners.de/lufthansa-verabschiedet-airbus-a340-600/90593",
+      "urlResolved": true,
+      "publishedAt": "2026-10-05T08:30:00Z",
+      "snippet": "Lufthansa mustert den Airbus A340-600 aus: Der letzte Linienflug LH419 landet am 19. Oktober in Frankfurt. Auch die Boeing 747-400 geht bald.",
+      "imageUrl": "https://images.airliners.de/2024/10/presseburo-spath-026-KLBCAa__wide__1320?v=1729069132",
+      "sourceFeeds": [
+        "google",
+        "bing"
+      ],
+      "edition": "DE:de"
+    }
+  ]
+}

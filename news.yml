@@ -1,0 +1,9 @@
+queries:
+  - 'artificial intelligence regulation'
+topics: []  # e.g. [TECHNOLOGY, BUSINESS]
+country: US
+language: en
+timeWindow: day
+maxItems: 20
+monitorId: google-news-alerts
+onlyNew: true
