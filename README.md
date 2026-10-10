@@ -2,6 +2,10 @@
 
 A free Python example for daily Google News searches and topic monitoring. It calls [hiver's Google News Scraper](https://apify.com/hiver/google-news-scraper?utm_source=github&utm_campaign=google-news-alerts) using your own Apify account, keeps article identities across runs, and sends only new articles. The code is free; Actor runs and any GitHub Actions usage beyond your allowance are not.
 
+![Google News Scraper on the Apify Store: keyword searches and topic sections in any country and language, then the bench table](media/google-news/readme.gif)
+
+[Watch the 1.5-minute walkthrough of the Actor (MP4, 1080p)](media/google-news/walkthrough.mp4)
+
 ## Quick start
 
 Use a copy of this repository you control. Python 3.12+:
