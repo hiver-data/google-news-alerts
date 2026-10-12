@@ -6,6 +6,8 @@ A free Python example for daily Google News searches and topic monitoring. It ca
 
 [Watch the 1.5-minute walkthrough of the Actor (MP4, 1080p)](media/google-news/walkthrough.mp4)
 
+**Only need the real URLs behind `news.google.com/rss/articles/...` links?** [`decoder/`](decoder/) is a standard-library Python script: links or a Google News RSS feed URL in, `decoded_links.csv` out (publisher URL, domain, status per link).
+
 ## Quick start
 
 Use a copy of this repository you control. Python 3.12+:

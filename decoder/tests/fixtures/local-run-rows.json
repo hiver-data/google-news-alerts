@@ -1,0 +1,189 @@
+{
+ "note": "Real rows from two local runs of hiver/google-news-scraper src (B50 code, HIVA-260, folder state 2026-10-11 07:54Z) by hiver Marketing on 2026-10-11 10:37-10:50Z. Local runs, not Apify cloud or bench runs.",
+ "feed_run": {
+  "input": {
+   "articleUrls": [
+    "https://news.google.com/rss/search?q=federal%20reserve&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSzEteVpBaXpTZ1dVcFFoejBFNDh6d1I2b0t1RzZWRTgtUTBJaGFfbWNEMS1xdEZYcUhuQkI2ZHFGSFJ6ZnFZMEVoODV3VllUQmp4Y3owMVhfcU1vR1JLN1F5Q1pvT1J2TlpoTGMzb0VUR0tpQzNnWVliUUhMM1AxM0U5UjNNb29ZaW5jZ01oZE1sQ3BFTFJQek4tZVNsYVlXVUpv?oc=5",
+    "https://example.com/news/story"
+   ],
+   "maxItems": 12
+  },
+  "rows": [
+   {
+    "inputUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNcXdDTHFELXdwLWdzdEYyLVlMM0p4OWVqQnl2dXFFM1MxTnpsQ2JJaVhsWlhXMmNMU1BURGRyRHRwYXQyT0VUdkJNaVVsbHRaNXFNeHZsWjgtWDlvTTlIRGdDSDRIaVlSNFpmNEdSanNCWnFoVjR0aWFQOUNtTGZEYmRuLTdrSXJqVmhMLTZpTGlBT1QyZ0lfTWZZV0FKZzJNQ2VoYmdJQkppOW9wd2lDNDRB0gG3AUFVX3lxTE5tNDBTS19sckdQZDhJbjBpTUIzc1lSUWx4NFkwRWpSWW4tWnhQU2RZREFxN3EwMFg2UGNDQ295a1FzMVdTUlJ6Q3ZzYnZFTWNxQ3pIQzQ1dnlzX1BjUldSWGREaTFFNi03Z2JqSElwT1B0Nzg0OVMyNEJBMnNWa2Y4cDFjc0dOWkktRVpFUWNYNjRqRVFLVzFhZzJ5WWpLMGozLTFOaU1nSnJsc2hqcnl3LVIzTm80VQ?oc=5",
+    "url": "https://abcnews.com/Politics/trump-announces-committee-investigate-federal-reserves-lisa-cook/story?id",
+    "urlResolved": true,
+    "publisherDomain": "abcnews.com",
+    "status": "decoded",
+    "title": "Trump announces committee to investigate Federal Reserve’s Lisa Cook",
+    "publisher": "ABC News - Breaking News, Latest News and Videos",
+    "publishedAt": "2026-10-09T17:23:35Z"
+   },
+   {
+    "inputUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOLWpCcDBIZElDdktNOUtwQ2NHVVh0WHZkYkJhV0t1T0sxWS1ON0Frb1pqUFFEbWtnWWI0d0IzYVBqck1MSExMc0ExNHozUEdUMHV2MDV5YjE0U0FVbnVFd01tdXFZakpxYnZ2MFZjTEdGWENyNkxaRlZNVWUtUEFhRmM1OFcwblktYVdzTTFpYjQ2bFhybGMyNlpLUndSdkZod2VoX3Ryc0stNVBRQnhpeERR?oc=5",
+    "url": "https://www.reuters.com/business/finance/fed-says-household-income-wealth-debt-stress-rose-2022-2025-2026-10-09/",
+    "urlResolved": true,
+    "publisherDomain": "reuters.com",
+    "status": "decoded",
+    "title": "Fed says household income, wealth, debt stress increased from 2022 to 2025",
+    "publisher": "Reuters",
+    "publishedAt": "2026-10-09T16:31:38Z"
+   },
+   {
+    "inputUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQNkZtWHQ0XzU1dUNGMFFKRGZ4RkdSUGpjMTZWUjlIWjA2MnByelpEcHE2ZEhrY3Z3TFFGNE9LcmR0ZlVrSUFwblpTQm5PbHhJM3lVYVlOTHFMUmJrc1pTUmVpU1BXR0dFQlZhNjQxcF82bEVMN1JQbVUzLTFza2plNFlfeHJYaWtRMnR0dWtaUjBOUUtuVUhuYnNKYUc1QlJtamc?oc=5",
+    "url": "https://www.marketplace.org/story/2026/10/08/how-to-get-the-federal-reserve-balance-sheet-just-right",
+    "urlResolved": true,
+    "publisherDomain": "marketplace.org",
+    "status": "decoded",
+    "title": "Not too big, not too small: The just-right Fed balance sheet",
+    "publisher": "Marketplace.org",
+    "publishedAt": "2026-10-08T22:45:00Z"
+   },
+   {
+    "inputUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNckNMd0xCc1RMemJpSlNXQVBEeVFKUktQWmFwTlBZWTFrM19DWTA1d1dtN3djS0tSbTY3VzhWYlp2NEdpQ1RIdUthT2xGMVhPNmxqRXFyUEloVVNRQWZ6S3VQeHlZaklEbGh2SWRmckNONnZXaV81TjItOTAwZlBPakZsTzRoVHpMUDVEYlFpbTJraXM?oc=5",
+    "url": "https://www.nytimes.com/2026/10/08/business/federal-reserve-christopher-waller-rates.html",
+    "urlResolved": true,
+    "publisherDomain": "nytimes.com",
+    "status": "decoded",
+    "title": "A Top Fed Official Casts Further Doubt on a Rate Rise This Month",
+    "publisher": "The New York Times",
+    "publishedAt": "2026-10-08T08:38:57Z"
+   },
+   {
+    "inputUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPbDZpRlVLTTRlWkhBT21tZEI5N1hBd0p2cHMwSlhOU1o5UnVuc1dTeW9jaEtzV25DQ1B2S0ZmSmR5Z0hhZ3pXZTg5a283OFB6YXNRTmdRbXpNOXhrd2gwRnJCbnREUEFkM0ZCUUJIRGRQSFZZTW1NemI4cUFpWFl4bU51Q3B0b3M?oc=5",
+    "url": "https://rvbusiness.com/federal-reserve-warns-another-rate-hike-coming-this-year/",
+    "urlResolved": true,
+    "publisherDomain": "rvbusiness.com",
+    "status": "decoded",
+    "title": "Federal Reserve Warns: Another Rate Hike Coming this Year",
+    "publisher": "RVBusiness",
+    "publishedAt": "2026-10-08T15:26:17Z"
+   },
+   {
+    "inputUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNdVNYTXRuTFR3OTM3ZDJoOVVsRFF4eFJrTnhUazJudUtObHZnUDJ0OHVsNkdFS0I5ekptaTJGNnhFd0dEMnpLcW9JcUJZYWJPS1pZUWx6YWZKZHhFLVVxaW4xalVqamFjWmxvUjZGSXhlSzZBTndNQWFwQzRpcUNqMnNDSWZTZDdWZmZkckgwbVRmVGVXQ29VZ2szVENiV0x2RmpNdXp3UFlKeXZFQXpB?oc=5",
+    "url": "https://www.bloomberg.com/news/videos/2026-10-08/blackrock-s-rieder-on-yield-curve-federal-reserve-hikes-video",
+    "urlResolved": true,
+    "publisherDomain": "bloomberg.com",
+    "status": "decoded",
+    "title": "Watch BlackRock’s Rieder on Yield Curve, Federal Reserve Rate Hikes",
+    "publisher": "Bloomberg.com",
+    "publishedAt": "2026-10-08T00:00:00Z"
+   },
+   {
+    "inputUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB0OVE3a2tFeHJKY1dFTmEwanp2UlpINUJFQi13N1FrUzdRQmRvMUxuRXpOVzJ6eng1eWItRDBFZXVZUTJHV3dXT0VaUTh5SURkVVNmUFVPcGctZG0xTi1QcjFrN2VLb1daU052dGFTVEYybGNMVTBv0gF8QVVfeXFMTjYyTmlMaDJpT0xfWTdFcEVHN0gweEloM3gyMG9xYnB4cTVUVE1Fa2lHNlR5ZXhUTFByLVlac0lCZm1KU1NtUk5sbDZwZDhpbHRYbDBiNGNNN1AxcjAzTjVEQ2lxN1pVVnplMmFUQlBPa0N4eTV1MVRwMGo5SQ?oc=5",
+    "url": "https://www.cnbc.com/2026/08/26/trump-lisa-cook-federal-reserve.html",
+    "urlResolved": true,
+    "publisherDomain": "cnbc.com",
+    "status": "decoded",
+    "title": "Fed's Lisa Cook turns mortgage allegations back on Trump and his Cabinet",
+    "publisher": "CNBC",
+    "publishedAt": "2026-08-26T07:00:00Z"
+   },
+   {
+    "inputUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQVmRMNE4zQ0hPREwwa0UxMnJsVWdDU3ZMb3E0Z0JHMTFRek1EVjBfbzBycmg3VEY5cm1CSE5rLWpFTXZKTHRtREVLUXBPcXVZMDdfRW9ScUVnTVdMWXpwb3ZHNGdoN1FZQ25HRW5mb3hYbTlwWmUwV0lZcDl1TU1hdHA2S0YyVEMyNUZ1eWNwdG5Zb1kxZDhNTG1JVWFyTk4zNFdsdWZwYVhPaEVWYlo4?oc=5",
+    "url": "https://www.usatoday.com/story/news/politics/2026/08/26/chinese-hackers-cyberattack-us-government/91473585007/",
+    "urlResolved": true,
+    "publisherDomain": "usatoday.com",
+    "status": "decoded",
+    "title": "US says Chinese hackers attacked DOJ, NASA, Federal Reserve, Senate",
+    "publisher": "USA Today",
+    "publishedAt": "2026-08-26T07:00:00Z"
+   },
+   {
+    "inputUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxPVlB2TmNqY1dILUtfRTFBQ0JPSk53elRnU1QzdmhIQ3VvTWlkelRTd3haWHJ4bmxiY2ZOcGhvd09wMTllVkVLQzk5NkdKZzNPeHpaZTRHQ242Ynd2Q1ZIUU50cUp1N2JYd1lCQndZQlhMUTZFekFZWWNueUxNbmRiUHdBZ2dWbDgzNlhmejZneHptaFhGbDI1M0JPbk8zZw?oc=5",
+    "url": "https://apnews.com/article/federal-reserve-warsh-trump-inflation-bab1bcb07e973bfb2dd0c3e5fbbb73b1",
+    "urlResolved": true,
+    "publisherDomain": "apnews.com",
+    "status": "decoded",
+    "title": "Federal Reserve hikes key rate for 1st time in 3 years, defying Trump demands for a cut",
+    "publisher": "AP News",
+    "publishedAt": "2026-09-16T07:00:00Z"
+   },
+   {
+    "inputUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQdlYtdVJDU0FtRVMzTE16TWhHYWZ4bGNWSmxoNVJGdTRoc2t0UktWSEVJblJudGhRd3ZVOGFrcU5jM0tpaEJnX3lNZnBwSUZCRFJaLWRPSThpdHg1bjd6WFZJNURnTDZtUEhDZGVoUnBnbHROQ3h4ZkJtb21tblBRRHNEVHVGVTJoeUoxRA?oc=5",
+    "url": "https://www.nytimes.com/2026/08/26/business/kevin-warsh-federal-reserve-jackson.html",
+    "urlResolved": true,
+    "publisherDomain": "nytimes.com",
+    "status": "decoded",
+    "title": "‘Honeymoon’s Over’: Warsh Under Pressure as Fed Weighs Raising Rates",
+    "publisher": "The New York Times",
+    "publishedAt": "2026-08-26T07:00:00Z"
+   },
+   {
+    "inputUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQ2JMVFlBWUdLenV3SlJWX0s0bW01cmo5WWNpb1l3QkpUSGVfclpZS0ZfcnBUVnAwWXctUVZidFl0a09OM1lzMWdKMjFySzhDclFJaU5DNHdLNjNUV3lSSGhkOW9GZ1VUTm9mZG9KcU4zckl2Znk3cjJ5MUNIYTVibFF6YWtFNl9lcUFRSXVMSXVjRUt0V01oeEVBcnpORWY0aUl3ZEdlY9IBrAFBVV95cUxOTHRKdmZEUGkzR0gtRC1aOE10NHU2cVVpeUVXaHFlVTZ6WTJLOGpON3F1OXR2WTB4Y2tWekN0NWxBdnE1bEJ6bUZlUkkyMEhiMU1HN1FsTkVYVUhZbzJ5NDlKZU1UTENuUWo0d3lOd0Z5bkJMY1FTSDNIU1MwbTNCaWppU21tNHQ5QkJmUmNJSXJNcHRkRnNGZW40VkdVclJnYkt0Q0dCOEVCTmNJ?oc=5",
+    "url": "https://www.aljazeera.com/economy/2026/10/9/trump-launches-probe-into-federal-reserve-governor-lisa-cook",
+    "urlResolved": true,
+    "publisherDomain": "aljazeera.com",
+    "status": "decoded",
+    "title": "Trump launches probe into Federal Reserve Governor Lisa Cook",
+    "publisher": "Al Jazeera",
+    "publishedAt": "2026-10-10T07:54:40Z"
+   },
+   {
+    "inputUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPQ1p0ZVQwNWZjSmliSmtvcHVQSlcwUWl2VmstZC1JVkJJb25vZkRZOXNZbTlLTDVIM1c2a2JqNGRDaWdOYjFCZDZEcEd4d083Wm1pLUc2MEZVb2R5X0hCbnBzLVp3QzJXdXhtT0lpX1lZZWtxOXNxeUNMNHozcVFELV9nbjRELXk2?oc=5",
+    "url": "https://www.nbcnews.com/business/economy/trump-probe-fed-gov-lisa-cook-rcna602500",
+    "urlResolved": true,
+    "publisherDomain": "nbcnews.com",
+    "status": "decoded",
+    "title": "Trump establishes panel to probe Fed governor Lisa Cook in latest attempt to fire her",
+    "publisher": "NBC News",
+    "publishedAt": "2026-10-09T15:00:53Z"
+   }
+  ]
+ },
+ "links_run": {
+  "input": {
+   "articleUrls": [
+    "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSzEteVpBaXpTZ1dVcFFoejBFNDh6d1I2b0t1RzZWRTgtUTBJaGFfbWNEMS1xdEZYcUhuQkI2ZHFGSFJ6ZnFZMEVoODV3VllUQmp4Y3owMVhfcU1vR1JLN1F5Q1pvT1J2TlpoTGMzb0VUR0tpQzNnWVliUUhMM1AxM0U5UjNNb29ZaW5jZ01oZE1sQ3BFTFJQek4tZVNsYVlXVUpv?oc=5",
+    "https://news.google.com/rss/articles/CBMib0FVX3lxTE15bDVpaVZodTNKTXZKUGxXUWdaWl9ZWTJyU1NocGtzbmFVR0N4cXBvcnpaUVRtZ3U1UFRCckIwVU1VMmxhS3VKMWViaHR4NjM4ZVBLek1qTnVLbEpQUzkydmk1bnpQU05sdjdtcm84WdIBdEFVX3lxTE9zZDMxOGJBMlhDR00xdkItNWJrYm1qMVgyZkJIQjFJWkFIRHJHMFlka0tldFp5QWJGNF9OOHg3cUdJYzBpMlV6VDh5ZVhHQUtMUmRWLWltbHZ2MS1NSTRyTFhwUDVNLVRxdFhIendjbDRkTnhT?oc=5",
+    "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSzEteVpBaXpTZ1dVcFFoejBFNDh6d1I2b0t1RzZWRTgtUTBJaGFfbWNEMS1xdEZYcUhuQkI2ZHFGSFJ6ZnFZMEVoODV3VllUQmp4Y3owMVhfcU1vR1JLN1F5Q1pvT1J2TlpoTGMzb0VUR0tpQzNnWVliUUhMM1AxM0U5UjNNb29ZaW5jZ01oZE1sQ3BFTFJQek4tZVNsYVlXVUpv",
+    "https://news.google.com/rss/articles/CBMiNOTAREALIDxxxxxxxxxx",
+    "https://example.com/news/story"
+   ],
+   "maxItems": 20
+  },
+  "rows": [
+   {
+    "inputUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSzEteVpBaXpTZ1dVcFFoejBFNDh6d1I2b0t1RzZWRTgtUTBJaGFfbWNEMS1xdEZYcUhuQkI2ZHFGSFJ6ZnFZMEVoODV3VllUQmp4Y3owMVhfcU1vR1JLN1F5Q1pvT1J2TlpoTGMzb0VUR0tpQzNnWVliUUhMM1AxM0U5UjNNb29ZaW5jZ01oZE1sQ3BFTFJQek4tZVNsYVlXVUpv?oc=5",
+    "url": "https://www.scotusblog.com/2026/10/trump-announces-committee-investigation-of-fed-governor-lisa-cook/",
+    "urlResolved": true,
+    "publisherDomain": "scotusblog.com",
+    "status": "decoded",
+    "title": null,
+    "publisher": null,
+    "publishedAt": null
+   },
+   {
+    "inputUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE15bDVpaVZodTNKTXZKUGxXUWdaWl9ZWTJyU1NocGtzbmFVR0N4cXBvcnpaUVRtZ3U1UFRCckIwVU1VMmxhS3VKMWViaHR4NjM4ZVBLek1qTnVLbEpQUzkydmk1bnpQU05sdjdtcm84WdIBdEFVX3lxTE9zZDMxOGJBMlhDR00xdkItNWJrYm1qMVgyZkJIQjFJWkFIRHJHMFlka0tldFp5QWJGNF9OOHg3cUdJYzBpMlV6VDh5ZVhHQUtMUmRWLWltbHZ2MS1NSTRyTFhwUDVNLVRxdFhIendjbDRkTnhT?oc=5",
+    "url": "https://www.cnbc.com/2026/10/09/american-debt-delinquency.html",
+    "urlResolved": true,
+    "publisherDomain": "cnbc.com",
+    "status": "decoded",
+    "title": null,
+    "publisher": null,
+    "publishedAt": null
+   },
+   {
+    "inputUrl": "https://news.google.com/rss/articles/CBMiNOTAREALIDxxxxxxxxxx",
+    "url": null,
+    "urlResolved": false,
+    "publisherDomain": null,
+    "status": "not_decoded: Google did not return a publisher URL",
+    "title": null,
+    "publisher": null,
+    "publishedAt": null
+   },
+   {
+    "inputUrl": "https://example.com/news/story",
+    "url": null,
+    "urlResolved": false,
+    "publisherDomain": null,
+    "status": "not_google_news_link",
+    "title": null,
+    "publisher": null,
+    "publishedAt": null
+   }
+  ]
+ }
+}
