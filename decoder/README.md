@@ -12,6 +12,21 @@ refused as free `not_decoded: Google rate-limited, retry later` rows instead of 
 script never dies halfway through a batch; re-send those links later. It does not rotate IPs or otherwise
 get around a refusal.
 
+## `googlenewsdecoder` fails at import?
+
+Since selectolax 1.0.0 (released 2026-10-03) removed its old Modest backend, a fresh
+`pip install googlenewsdecoder` (0.2.1, which asks for `selectolax>=0.4.12` with no upper bound) stops at
+`from googlenewsdecoder import gnewsdecoder` with `ImportError: Modest backend is deprecated since
+selectolax 1.0`. The free fix is to keep selectolax below 1.0:
+
+```sh
+pip install googlenewsdecoder "selectolax<1.0"
+```
+
+We checked it on 2026-10-14 in a clean Python 3.13 virtualenv: with selectolax 1.0.0 the import fails;
+with 0.4.13 it imports and decodes a Google News link. This script does not need that library at all:
+it uses only Python's standard library and sends the links to the Actor.
+
 ## Use
 
 ```sh
