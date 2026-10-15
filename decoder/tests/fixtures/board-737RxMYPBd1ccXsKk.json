@@ -1,0 +1,97 @@
+{
+  "source": "Board export 737RxMYPBd1ccXsKk, build 0.1.18, 2026-10-12. Verbatim input/rows; none of these five publisher URLs has a query string.",
+  "input": {
+    "articleUrls": [
+      "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSzEteVpBaXpTZ1dVcFFoejBFNDh6d1I2b0t1RzZWRTgtUTBJaGFfbWNEMS1xdEZYcUhuQkI2ZHFGSFJ6ZnFZMEVoODV3VllUQmp4Y3owMVhfcU1vR1JLN1F5Q1pvT1J2TlpoTGMzb0VUR0tpQzNnWVliUUhMM1AxM0U5UjNNb29ZaW5jZ01oZE1sQ3BFTFJQek4tZVNsYVlXVUpv?oc=5",
+      "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQ2JMVFlBWUdLenV3SlJWX0s0bW01cmo5WWNpb1l3QkpUSGVfclpZS0ZfcnBUVnAwWXctUVZidFl0a09OM1lzMWdKMjFySzhDclFJaU5DNHdLNjNUV3lSSGhkOW9GZ1VUTm9mZG9KcU4zckl2Znk3cjJ5MUNIYTVibFF6YWtFNl9lcUFRSXVMSXVjRUt0V01oeEVBcnpORWY0aUl3ZEdlY9IBrAFBVV95cUxOTHRKdmZEUGkzR0gtRC1aOE10NHU2cVVpeUVXaHFlVTZ6WTJLOGpON3F1OXR2WTB4Y2tWekN0NWxBdnE1bEJ6bUZlUkkyMEhiMU1HN1FsTkVYVUhZbzJ5NDlKZU1UTENuUWo0d3lOd0Z5bkJMY1FTSDNIU1MwbTNCaWppU21tNHQ5QkJmUmNJSXJNcHRkRnNGZW40VkdVclJnYkt0Q0dCOEVCTmNJ?oc=5",
+      "https://news.google.com/articles/CBMiiAFBVV95cUxPQ1p0ZVQwNWZjSmliSmtvcHVQSlcwUWl2VmstZC1JVkJJb25vZkRZOXNZbTlLTDVIM1c2a2JqNGRDaWdOYjFCZDZEcEd4d083Wm1pLUc2MEZVb2R5X0hCbnBzLVp3QzJXdXhtT0lpX1lZZWtxOXNxeUNMNHozcVFELV9nbjRELXk2",
+      "https://news.google.com/rss/articles/CBMib0FVX3lxTE15bDVpaVZodTNKTXZKUGxXUWdaWl9ZWTJyU1NocGtzbmFVR0N4cXBvcnpaUVRtZ3U1UFRCckIwVU1VMmxhS3VKMWViaHR4NjM4ZVBLek1qTnVLbEpQUzkydmk1bnpQU05sdjdtcm84WdIBdEFVX3lxTE9zZDMxOGJBMlhDR00xdkItNWJrYm1qMVgyZkJIQjFJWkFIRHJHMFlka0tldFp5QWJGNF9OOHg3cUdJYzBpMlV6VDh5ZVhHQUtMUmRWLWltbHZ2MS1NSTRyTFhwUDVNLVRxdFhIendjbDRkTnhT?oc=5",
+      "https://news.google.com/rss/articles/CBMi1wFBVV95cUxORjdXZkZsYVozX0NZdFlWZUF0S1NjZG9pa204UmVBcUh3S1hrb3I3d2xnb2hZYzFtV2pRNGtFSjJzeEpleUtubVp2QnRiLUs5XzBqYXYybTk0NGhvVkJLV2dKejlDa1BkeFlaLVZFWUUyVC03TzJPdzZpa3BNNjFfTGN4VmtEd1RCRDNWX3lyekc0Y0trV2ljRFQxMWlpX1ZoVFI2QjFpRXFlSi1FNzBxLUNxcEVqNWI2N1lkb1pDUTlfcnduZzdHMFpHYlYza2Z3b1AwTjNnNA?oc=5",
+      "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSzEteVpBaXpTZ1dVcFFoejBFNDh6d1I2b0t1RzZWRTgtUTBJaGFfbWNEMS1xdEZYcUhuQkI2ZHFGSFJ6ZnFZMEVoODV3VllUQmp4Y3owMVhfcU1vR1JLN1F5Q1pvT1J2TlpoTGMzb0VUR0tpQzNnWVliUUhMM1AxM0U5UjNNb29ZaW5jZ01oZE1sQ3BFTFJQek4tZVNsYVlXVUpv",
+      "https://news.google.com/rss/articles/CBMiNOTAREALIDxxxxxxxxxx",
+      "https://example.com/news/story"
+    ],
+    "maxItems": 20,
+    "country": "US",
+    "language": "en",
+    "timeWindow": "week",
+    "maxItemsPerQuery": 25,
+    "sortBy": "date",
+    "resolvePublisherUrl": true,
+    "addSnippets": true,
+    "onlyNew": false,
+    "monitorId": "default"
+  },
+  "rows": [
+    {
+      "inputUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSzEteVpBaXpTZ1dVcFFoejBFNDh6d1I2b0t1RzZWRTgtUTBJaGFfbWNEMS1xdEZYcUhuQkI2ZHFGSFJ6ZnFZMEVoODV3VllUQmp4Y3owMVhfcU1vR1JLN1F5Q1pvT1J2TlpoTGMzb0VUR0tpQzNnWVliUUhMM1AxM0U5UjNNb29ZaW5jZ01oZE1sQ3BFTFJQek4tZVNsYVlXVUpv?oc=5",
+      "url": "https://www.scotusblog.com/2026/10/trump-announces-committee-investigation-of-fed-governor-lisa-cook/",
+      "urlResolved": true,
+      "publisherDomain": "scotusblog.com",
+      "status": "decoded",
+      "title": null,
+      "publisher": null,
+      "publishedAt": null
+    },
+    {
+      "inputUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQ2JMVFlBWUdLenV3SlJWX0s0bW01cmo5WWNpb1l3QkpUSGVfclpZS0ZfcnBUVnAwWXctUVZidFl0a09OM1lzMWdKMjFySzhDclFJaU5DNHdLNjNUV3lSSGhkOW9GZ1VUTm9mZG9KcU4zckl2Znk3cjJ5MUNIYTVibFF6YWtFNl9lcUFRSXVMSXVjRUt0V01oeEVBcnpORWY0aUl3ZEdlY9IBrAFBVV95cUxOTHRKdmZEUGkzR0gtRC1aOE10NHU2cVVpeUVXaHFlVTZ6WTJLOGpON3F1OXR2WTB4Y2tWekN0NWxBdnE1bEJ6bUZlUkkyMEhiMU1HN1FsTkVYVUhZbzJ5NDlKZU1UTENuUWo0d3lOd0Z5bkJMY1FTSDNIU1MwbTNCaWppU21tNHQ5QkJmUmNJSXJNcHRkRnNGZW40VkdVclJnYkt0Q0dCOEVCTmNJ?oc=5",
+      "url": "https://www.aljazeera.com/economy/2026/10/9/trump-launches-probe-into-federal-reserve-governor-lisa-cook",
+      "urlResolved": true,
+      "publisherDomain": "aljazeera.com",
+      "status": "decoded",
+      "title": null,
+      "publisher": null,
+      "publishedAt": null
+    },
+    {
+      "inputUrl": "https://news.google.com/articles/CBMiiAFBVV95cUxPQ1p0ZVQwNWZjSmliSmtvcHVQSlcwUWl2VmstZC1JVkJJb25vZkRZOXNZbTlLTDVIM1c2a2JqNGRDaWdOYjFCZDZEcEd4d083Wm1pLUc2MEZVb2R5X0hCbnBzLVp3QzJXdXhtT0lpX1lZZWtxOXNxeUNMNHozcVFELV9nbjRELXk2",
+      "url": "https://www.nbcnews.com/business/economy/trump-probe-fed-gov-lisa-cook-rcna602500",
+      "urlResolved": true,
+      "publisherDomain": "nbcnews.com",
+      "status": "decoded",
+      "title": null,
+      "publisher": null,
+      "publishedAt": null
+    },
+    {
+      "inputUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE15bDVpaVZodTNKTXZKUGxXUWdaWl9ZWTJyU1NocGtzbmFVR0N4cXBvcnpaUVRtZ3U1UFRCckIwVU1VMmxhS3VKMWViaHR4NjM4ZVBLek1qTnVLbEpQUzkydmk1bnpQU05sdjdtcm84WdIBdEFVX3lxTE9zZDMxOGJBMlhDR00xdkItNWJrYm1qMVgyZkJIQjFJWkFIRHJHMFlka0tldFp5QWJGNF9OOHg3cUdJYzBpMlV6VDh5ZVhHQUtMUmRWLWltbHZ2MS1NSTRyTFhwUDVNLVRxdFhIendjbDRkTnhT?oc=5",
+      "url": "https://www.cnbc.com/2026/10/09/american-debt-delinquency.html",
+      "urlResolved": true,
+      "publisherDomain": "cnbc.com",
+      "status": "decoded",
+      "title": null,
+      "publisher": null,
+      "publishedAt": null
+    },
+    {
+      "inputUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxORjdXZkZsYVozX0NZdFlWZUF0S1NjZG9pa204UmVBcUh3S1hrb3I3d2xnb2hZYzFtV2pRNGtFSjJzeEpleUtubVp2QnRiLUs5XzBqYXYybTk0NGhvVkJLV2dKejlDa1BkeFlaLVZFWUUyVC03TzJPdzZpa3BNNjFfTGN4VmtEd1RCRDNWX3lyekc0Y0trV2ljRFQxMWlpX1ZoVFI2QjFpRXFlSi1FNzBxLUNxcEVqNWI2N1lkb1pDUTlfcnduZzdHMFpHYlYza2Z3b1AwTjNnNA?oc=5",
+      "url": "https://www.deutschlandfunk.de/bundesbank-vorstandsmitglied-theurer-sieht-noch-keine-systemische-staatsschuldenkrise-aber-warnsigna-100.html",
+      "urlResolved": true,
+      "publisherDomain": "deutschlandfunk.de",
+      "status": "decoded",
+      "title": null,
+      "publisher": null,
+      "publishedAt": null
+    },
+    {
+      "inputUrl": "https://news.google.com/rss/articles/CBMiNOTAREALIDxxxxxxxxxx",
+      "url": null,
+      "urlResolved": false,
+      "publisherDomain": null,
+      "status": "not_decoded: Google did not return a publisher URL",
+      "title": null,
+      "publisher": null,
+      "publishedAt": null
+    },
+    {
+      "inputUrl": "https://example.com/news/story",
+      "url": null,
+      "urlResolved": false,
+      "publisherDomain": null,
+      "status": "not_google_news_link",
+      "title": null,
+      "publisher": null,
+      "publishedAt": null
+    }
+  ]
+}

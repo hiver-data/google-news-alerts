@@ -71,6 +71,50 @@ Google decides how fast it answers: in the board's run of the previous build 25 
 same 8 links, Google refused that worker from the start, so all 7 rows came back free and undecoded and the
 run still succeeded. That is what the free rows are for.
 
+## Drop-in replacement
+
+For Python 3.10+, install this function-level replacement (standard library at runtime):
+
+```sh
+python -m venv .venv
+. .venv/bin/activate
+python -m pip install "git+https://github.com/hiver-data/google-news-alerts.git#subdirectory=decoder"
+export APIFY_TOKEN=...  # your own Apify account; calls below use paid Actor runs
+```
+
+Change only your import; existing function calls can stay:
+
+```python
+from hiver_gnewsdecoder import gnewsdecoder  # replaces: from googlenewsdecoder import gnewsdecoder
+result = gnewsdecoder(source_url)             # str -> one dict
+results = gnewsdecoder([source_url, source_url])  # list -> ordered list, duplicates retained
+# {"success": True, "decoded_url": "https://publisher.example/article?..."}
+# or {"success": False, "message": "Google rate-limited, retry later"}
+```
+
+`from hiver_gnewsdecoder import gnews_decoder_async` provides the same shapes with `await`.
+One nonempty batch containing article links starts one Actor run, not one run per link;
+empty lists and invalid/feed-only inputs start none. Unlike the CSV CLI, the shim does not
+expand feeds. Lists are capped at 5,000 inputs; split larger lists explicitly.
+`interval`, `proxy` and async `concurrency` are accepted but ignored: pacing is Actor-side,
+no client proxy is used, and refusals are never automatically retried.
+`timeout` (default 10.0, or `None`) is per Apify HTTP operation, not total run duration.
+Missing tokens and invalid argument types/limits raise `ValueError`/`TypeError`; HTTP/run
+failures return failure dicts without retrying. Check Apify Console before resubmitting:
+a lost response or cancelled async await does not stop an already-started run.
+Optional keyword-only `apify_token=` overrides `APIFY_TOKEN`; `max_charge=0.50` sets the
+run's USD cap. The import swap changes where execution happens: your account pays the
+Actor's Store rate and any applicable Apify charges. It is not a free local decoder or
+a replacement for `GoogleDecoder`/`GoogleDecoderAsync` classes. No dependency on
+`googlenewsdecoder`, `selectolax` or `httpx`, even if those packages cannot import.
+
+From a clone, `cd decoder && python -m pip install .`, then run the Tests command below.
+Tests use the verbatim board input/rows from `737RxMYPBd1ccXsKk` (five decoded, two
+errors, duplicate input restored). Those five publisher URLs have no query strings;
+three separate real B51 Google RPC captures test query preservation through explicitly
+reconstructed Apify envelopes. They are not additional board-decoded rows. All tests
+are offline; there is no live paid-run verification of this shim.
+
 ## Tests
 
 ```sh

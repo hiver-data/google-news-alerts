@@ -1,0 +1,8 @@
+{
+  "note": "Real Google RPC captures from B51 local parser tests, NOT rows from board run 737RxMYPBd1ccXsKk. Shim tests label the reconstructed Apify envelope explicitly.",
+  "expected": {
+    "query-1.txt": "https://www.njsendems.org/CivicAlerts.aspx?AID=1499",
+    "query-7.txt": "https://www.malibucity.org/CivicAlerts.aspx?AID=2155",
+    "query-third.txt": "https://cityofpa.us/m/newsflash/Archive/Item/1048?arcId=1875"
+  }
+}
